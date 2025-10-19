@@ -14,3 +14,17 @@ body {
   padding: 2rem;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
+/* === Name Banner === */
+.banner {
+  width: 100%;
+  background: linear-gradient(135deg, #003366, #0056b3); /* deep → bright blue */
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-bottom: 4px solid #e6e9ef;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
